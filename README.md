@@ -4,6 +4,7 @@
     if (size.height<=frame.size.height) {
         size.height=frame.size.height;
     }
+    
  改成
  
      if (size.height<=frame.size.height) {
