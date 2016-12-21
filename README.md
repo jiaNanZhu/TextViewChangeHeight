@@ -2,8 +2,8 @@
 我根据博客中的代码运行后，发现当我输入内容的时候高度会增高，但是当我删除内容后发现textview的高度并没有降低，观察代码后将textview的代理方法中
 
     if (size.height<=frame.size.height) {
-        size.height=frame.size.height;
-    }
+         size.height=frame.size.height;
+     }
     
  改成
  
